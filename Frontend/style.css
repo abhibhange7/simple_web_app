@@ -1,0 +1,79 @@
+/* Background Image */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/gradient-style-network-connection-background_23-2148879891.jpg?t=st=1736528001~exp=1736531601~hmac=0c182ee74abeb552481d27739ceb4e0f79d4e1eb38b31bfbbc27e0a166f29b9f&w=740'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 600px;
+    padding: 30px;
+    background-color: rgba(240, 129, 234, 0.8); /* Semi-transparent white background */
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3e34c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5400b3;
+    transform: translateY(-2px);
+  }
+  
+  .response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    word-wrap: break-word;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+    button {
+      width: 100%;
+    }
+  }
+  
