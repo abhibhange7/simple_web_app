@@ -1,5 +1,5 @@
-Project Name: Simple frontend and backend app with deployment
-Overview
+**Project Name: Simple frontend and backend app with deployment
+**Overview
 This project consists of a Frontend (hosted on Firebase) and a Backend (hosted on AWS EC2). The frontend makes requests to the backend API hosted on EC2, and the backend provides responses with JSON data.
 
 Prerequisites
