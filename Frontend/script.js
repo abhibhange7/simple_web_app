@@ -3,7 +3,7 @@ const fetchDataBtn = document.getElementById('fetch-data-btn');
 const responseContainer = document.getElementById('response-container');
 
 // Backend URL (Replace with your EC2 public IP and endpoint)
-const backendUrl = 'http://54.243.0.135/api/endpoint'; // Update this URL
+const backendUrl = 'http://<ec2-public_ip>/api/endpoint'; // Update this URL
 
 // Add event listener to the button
 fetchDataBtn.addEventListener('click', () => {
